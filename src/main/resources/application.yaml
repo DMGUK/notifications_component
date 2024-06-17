@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "notifications-software-architecture"
+  main:
+    allow-circular-references: true
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/notifications'
+    username: 'postgres'
+    password: 'GuK2002DmYTro_03_11'
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
